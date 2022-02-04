@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.inicio {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.inicio > h3 > a {
+    color: white;
+    text-decoration: none;
+}
+
+.inicio > h3 > a:hover {
+    text-decoration: underline;
+    color: darkgray;
+}
+
+.conteudo > h1 {
+    text-align: center;
+    margin: 10px;
+}
+
+.videos {
+    display: inline-block;
+    margin: 20px 24%;
+    padding: 5px;
+}
+
+iframe {
+    box-shadow: 4px 3px 20px 1px black;
+    margin: auto;
+}
+
+.links {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin: 20px;
+    font-size: 1em;
+    display: block;
+}
+
+.links > a {
+    margin: 0 12px;
+}
+
+.robos {
+    box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.600);
+    text-align: center;
+    max-width: 400px;
+    background-color: darkgray;
+    border-radius: 20px;
+    margin: 25px auto;
+}
+
+.robos > h3 {
+    margin: 10px;
+}
+
+.robos > ul {
+    columns: 2;
+    text-align: left;
+    width: 370px;
+    height: 75px;
+    margin: 10px 25px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.robos > ul > li > a:hover {
+    font-size: 1.2em;
+}
+
+.links > a, .bots > a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
